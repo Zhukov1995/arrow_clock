@@ -30,11 +30,10 @@ const Clock = (props: any): JSX.Element => {
         }
     }, [])
 
-    // проверяем любое значение из time, чтобы не вызывать функцию просто так
+    // проверяем time, и вызываем функцию только если он есть
     useEffect(() => {
         if(time !== undefined) {
             startPositionDeg(time);
-            console.log('startPosition');
         }
     }, [time])
 
