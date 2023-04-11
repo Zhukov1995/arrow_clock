@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { IResponseClock, ITime } from './clock.interface';
-import './clock.css';
+import './styles/clock.css';
+import './styles/clock.media.css';
 
 const Clock = (props: any): JSX.Element => {
     const [time, setTime] = useState<ITime>();

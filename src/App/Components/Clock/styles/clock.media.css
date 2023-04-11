@@ -1,0 +1,73 @@
+@media(max-width: 650px) {
+    .clock {
+        width: 400px;
+        height: 400px;
+    }
+    .semicircle {
+        width: 400px;
+        height: 202px;
+    }
+    .arrows__sec, .arrows__min, .arrows__hour {
+        top: 49.3%;
+        left: 198px;
+    }
+    .arrows__sec {
+        width: 155px;
+        height: 1px;
+        border: 1px solid red;
+        top: 49.8%;
+    }
+    
+    .arrows__min {
+        width: 140px;
+        height: 6px;
+    }
+    
+    .arrows__hour {
+        width: 120px;
+        height: 10px;
+        top: 48.7%;
+    }
+    .arrows__center {
+        width: 15px;
+        height: 15px;
+        left: 191px;
+        top: 48.15%;
+    }
+}
+
+@media(max-width: 400px) {
+    .clock {
+        width: 300px;
+        height: 300px;
+    }
+    .semicircle {
+        width: 300px;
+        height: 153px;
+    }
+    .arrows__sec, .arrows__min, .arrows__hour {
+        top: 48.8%;
+        left: 147px;
+    }
+    .arrows__sec {
+        width: 117px;
+        top: 49.5%;
+    }
+    
+    .arrows__min {
+        width: 100px;
+        height: 4px;
+        top: 49.45%;
+    }
+    
+    .arrows__hour {
+        width: 85px;
+        height: 7px;
+    }
+    .arrows__center {
+        width: 12px;
+        height: 12px;
+        left: 141.5px;
+        top: 48.1%;
+    }
+}
