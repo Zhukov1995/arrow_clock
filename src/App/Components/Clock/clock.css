@@ -1,0 +1,79 @@
+.clock {
+    width: 600px;
+    height: 600px;
+    background: url('./clock7.jpg');
+    background-size: 100%;
+    background-position: 0px 5px;
+    border-radius: 50%;
+    position: relative;
+    background-color: white;
+}
+
+.semicircle {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    background-color: rgba(125, 150, 128, 0.264);
+    padding-bottom: 20px;
+    color: rgb(153, 153, 153);
+}
+
+.arrows {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.arrows__sec, .arrows__min, .arrows__hour {
+    width: 10px;
+    height: 600px;
+    position: absolute;
+    top: 49.6%;
+    left: 299px;
+    transform-origin: 0%;
+}
+
+.arrows__sec {
+    width: 250px;
+    height: 2px;
+    border: 2px solid red;
+    background-color: red;
+    border-radius: 2px;
+    z-index: 3;
+}
+
+.arrows__min {
+    width: 230px;
+    height: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    top: 49.3%;
+    z-index: 2;
+}
+
+.arrows__hour {
+    width: 200px;
+    height: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: black;
+    top: 49%;
+    z-index: 1;
+}
+
+.arrows__center {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 291px;
+    top: 48.7%;
+    z-index: 5;
+}
